@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #ecf2f8;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+img{
+    padding-right: 15px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+#graduate{
+    opacity: 50%;
+    padding-bottom: 7px;
+}
+
+#review{
+    opacity: 70%;
+    
+}
+
+#highlight{
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+
+.container{
+    display: flex;
+    width: 1200px;
+    height: 650px;
+    justify-content: space-evenly;
+}
+
+.container-left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+}
+
+#container-left-top{
+    display: flex;
+    flex-basis: 47%;
+    justify-content: space-evenly;
+}
+
+#container-left-bottom{
+    display: flex;
+    flex-basis: 47%;
+    justify-content: space-evenly;
+}
+.container-right{
+    flex-basis: 16%;
+    /* border: 2px solid black; */
+    /* margin-left: 5px; */
+    background-color: #ffffff;
+    color: black;
+    height: fit-content;
+}
+
+.daniel{
+    /* background-image: url(images/bg-pattern-quotation.svg); */
+    background-color: #7541c8;
+    flex-basis: 70%;
+
+}
+
+.jonathan{
+    flex-basis: 20%;
+    background-color: #48556a;
+}
+
+.jeanette{
+    flex-basis: 20%;
+    background-color: #ffffff;
+    color: black;
+}
+
+.patrick{
+    flex-basis: 70%;
+    background-color: #19212e;
+}
+
+
+.daniel, 
+.jonathan, 
+.jeanette, 
+.patrick{
+    /* border: 2px solid black; */
+    margin-right: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container,
+.container-left,
+.container-right{
+  
+}
+.daniel, 
+.jonathan, 
+.jeanette, 
+.patrick,
+.container-right{
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.name-profile{
+    display: flex;
+}
